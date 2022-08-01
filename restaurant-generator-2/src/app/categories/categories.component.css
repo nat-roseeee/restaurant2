@@ -1,0 +1,32 @@
+h2 {
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    color: black;
+  }
+
+  button {
+    background-color: #7D9D9C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 325px;
+    font-size: 18px;
+    color: #F0EBE3;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-family: monospace;
+    font-weight: bold;
+  }
+
+  button:hover {
+    background-color: #576F72;
+  }
+
+  li {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 18px;
+  }
+

@@ -2,15 +2,15 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './generator.component.html',
-  styleUrls: ['./generator.component.css']
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'test-app';
 
   public selectedList: string[] = [];
   public randomrestaurant = "";
-  public oldrestaurant = ""
+  public oldrestaurant = "";
 
   options = [
     {value:"default", list:[""]},
@@ -44,6 +44,9 @@ export class AppComponent {
     }
     this.oldrestaurant = this.randomrestaurant;
   }
+
+
+  
 
 
 }
