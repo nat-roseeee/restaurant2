@@ -20,41 +20,14 @@
     color: #576F72;
   }
 
-  .dropdown {
-    padding-top: 4%;
-    text-align: center;
-  }
-  
-  label {
-    font-family: 'Righteous', cursive;
-    letter-spacing: 1px;
-    font-size: 25px;
-  }
-
-  .dropdown-category {
-    background-color: #7D9D9C;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 18px;
-    color: #F0EBE3;
-    border: 3px solid black;
-    border-radius: 5px;
-  }
-
-  .dropdown-category:hover {
-    background-color: #576F72;
-  }
-
-  option, p, button, select {
-    font-family: monospace;
-    font-weight: bold;
-  }
-
-  #default {
-    text-align: center;
+  .navLinks {
+    padding: 0;
+    margin-top: 50px;
   }
 
   button {
+    font-family: monospace;
+    font-weight: bold;
     background-color: #7D9D9C;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -69,22 +42,30 @@
     background-color: #576F72;
   }
 
-  .response {
-    padding-top: 4%;
+  button:active {
+    background-color: black;
+  }
+
+  button:focus {
+    background-color: #576F72;
+  }
+
+  #generator {
+    margin-left: 5%;
+    margin-right: 7%;
+  }
+
+  #categories {
+    margin-right: 5%;
+  }
+
+  p {
+    font-family: monospace;
+    font-weight: bold;
     text-align: center;
   }
 
-  .restaurantBox {
-    text-align: center;
-  }
-
-  #restaurant {
-    margin-top: 8%;
-    font-family: 'Righteous', cursive;
-    letter-spacing: 1px;
-    color: #576F72;
-    font-size: 30px;
-  }
+  
 
 /* font-family: 'Righteous', cursive; 
 

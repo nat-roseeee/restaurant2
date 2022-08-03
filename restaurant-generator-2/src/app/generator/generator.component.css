@@ -1,0 +1,69 @@
+  .dropdown {
+    padding-top: 4%;
+    text-align: center;
+  }
+  
+  label {
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+    font-size: 25px;
+  }
+
+  .dropdown-category {
+    background-color: #7D9D9C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #F0EBE3;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+
+  .dropdown-category:hover {
+    background-color: #576F72;
+  }
+
+  option, p, button, select {
+    font-family: monospace;
+    font-weight: bold;
+  }
+
+  #default {
+    text-align: center;
+  }
+
+  button {
+    background-color: #7D9D9C;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    font-size: 18px;
+    color: #F0EBE3;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background-color: #576F72;
+  }
+
+  button:active {
+    background-color: black;
+  }
+
+  .response {
+    padding-top: 4%;
+    text-align: center;
+  }
+
+  .restaurantBox {
+    text-align: center;
+  }
+
+  #restaurant {
+    margin-top: 8%;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 30px;
+  }

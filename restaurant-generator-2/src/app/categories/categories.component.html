@@ -1,6 +1,6 @@
 <!-- list resturants from component -->
 <div>
-    <h2>Categories</h2>
+    <p class="label">Categories</p>
     <ul class="categories" style="list-style-type:none;">
         <li *ngFor="let category of categories">
             <button type="button" (click)="onSelect(category)">
@@ -10,7 +10,7 @@
     </ul>
 </div>
 <div *ngIf="selectedCategory">
-    <h2>{{selectedCategory.listTitle}}: </h2>
+    <p class="label">{{selectedCategory.listTitle}}: </p>
     <ul style="list-style-type:none;">
         <li *ngFor="let restaurant of restaurants">
             <span>- {{restaurant}}</span>

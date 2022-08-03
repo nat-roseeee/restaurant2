@@ -1,0 +1,26 @@
+<head>
+    <link rel="stylesheet" href="generator.component.css">
+</head>
+
+  <body>
+    <div class="body">
+
+      <div class="dropdown">
+        <label for="generator">Generator</label><br>
+          <select name="dropdown-category" class="dropdown-category" [(ngModel)]="selectedCategory" (ngModelChange)="onSelected($event)">
+            <option id="default" [ngValue]="" selected >pick a category</option>
+            <option value={{category.listTitle}} *ngFor="let category of categories">{{category.listTitle}}</option> 
+          </select> 
+      </div>
+
+      <div class="response"><br>
+        <button type="button" (click)="generateRand(selectedList)">click to generate</button>
+      </div>
+      <div class="restaurantBox">
+        <p id="restaurant">{{randomRestaurant}}</p>
+      </div>
+
+  </div>
+
+  </body>
+
